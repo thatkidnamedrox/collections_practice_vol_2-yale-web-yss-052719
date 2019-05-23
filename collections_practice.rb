@@ -36,11 +36,12 @@ end
 def merge_data(keys, data)
   result = []
   keys.each do |element|
-    data.find do |e|
-      k = element.values.first
-      d = e.keys
-      puts [e, k, d].inspect
-      k == d
+    data.each do |d|
+      d.find do |e|
+        k = element.values.first
+        d = e.keys
+        puts [e, k, d].inspect
+        k == d
     end
   end
   result
