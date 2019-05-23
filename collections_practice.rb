@@ -42,6 +42,7 @@ def merge_data(keys, data)
         h_name = h_element.first
         puts [k_name, h_name]
         puts " "
+        k_name == h_name
 
       end
     end
