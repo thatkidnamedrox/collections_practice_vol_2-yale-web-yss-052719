@@ -33,6 +33,15 @@ def count_elements(array)
   end
 end
 
-def merge_data(a, b)
-  c = a << b
+def merge_data(keys, data)
+  result = []
+  keys.each do |element|
+    data.find do |e|
+      k = e.keys
+      n = element.keys
+      puts [n, k]
+      n.include? k
+    end
+  end
+  result
 end
