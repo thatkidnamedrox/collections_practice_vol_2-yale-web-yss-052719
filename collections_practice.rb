@@ -38,7 +38,7 @@ def merge_data(keys, data)
   keys.each do |element|
     data.find do |e|
       k = e.keys
-      n = element.keys
+      n = element.values
       puts [n, k].inspect
       n.include? k
     end
