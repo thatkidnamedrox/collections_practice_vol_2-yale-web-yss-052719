@@ -59,7 +59,7 @@ def organize_schools(array)
   schools = array.keys
   result = {}
   locations = array.values.values
-  
+
   puts locations
   array.each do |key, value|
     nil
