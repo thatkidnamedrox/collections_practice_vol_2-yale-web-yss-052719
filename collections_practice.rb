@@ -24,5 +24,6 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.collect {|e| e[:count] = array.count(e)}
+  uniq = array.uniq
+  uniq.collect {|e| e[:count] = array.count(e) }
 end
