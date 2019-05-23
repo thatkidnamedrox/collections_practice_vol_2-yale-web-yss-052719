@@ -43,7 +43,6 @@ def merge_data(keys, data)
         #puts [k_name, h_name]
         k_name == h_name
       end
-
       new_element = {}
       new_element = k_element.merge(d.last)
       result << new_element
