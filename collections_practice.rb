@@ -22,3 +22,7 @@ end
 def remove_non_strings(array)
   array.delete_if {|e| !e.is_a?(String)}
 end
+
+def count_elements(array)
+  array.collect {|e| array.count(e)}
+end
