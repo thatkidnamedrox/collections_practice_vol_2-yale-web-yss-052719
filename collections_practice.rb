@@ -44,7 +44,7 @@ def merge_data(keys, data)
         k_name == h_name
       end
 
-      puts [d.values.inspect, k_element.inspect]
+      puts [d.last.inspect, k_element.inspect]
     end
   end
   result
