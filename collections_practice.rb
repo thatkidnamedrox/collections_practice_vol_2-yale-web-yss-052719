@@ -58,7 +58,7 @@ end
 def organize_schools(array)
   schools = array.keys
   result = {}
-  locations = array.values[:location].uniq
+  locations = array.values
   puts locations
   array.each do |key, value|
     nil
