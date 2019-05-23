@@ -158,16 +158,16 @@ describe 'collections practice vol 2.' do
 
   end
 
-  # describe '#find_cool' do
-  #
-  #   # Question 7
-  #
-  #   it 'find all cool hashes' do
-  #     expect(find_cool(cool)).to eq([{:name => "blake",:temperature => "cool"}])
-  #   end
-  #
-  # end
-  #
+  describe '#find_cool' do
+  
+    # Question 7
+  
+    it 'find all cool hashes' do
+      expect(find_cool(cool)).to eq([{:name => "blake",:temperature => "cool"}])
+    end
+  
+  end
+  
   # describe '#organize_schools' do
   #
   #   # Question 8
