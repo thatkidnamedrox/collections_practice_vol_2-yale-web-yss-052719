@@ -30,5 +30,5 @@ def count_elements(array)
     e = e.merge(element)
     e[:count] = array.count(e)
     e
-  }
+  end
 end
