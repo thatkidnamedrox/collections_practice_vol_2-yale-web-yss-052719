@@ -37,10 +37,10 @@ def merge_data(keys, data)
   result = []
   keys.each do |element|
     data.find do |e|
-      k = e.keys
-      d = element.values
+      k = e.keys.first
+      d = element.values.first
       puts [k, d].inspect
-      d.include? k
+      k == d
     end
   end
   result
