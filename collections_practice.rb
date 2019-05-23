@@ -59,7 +59,6 @@ def organize_schools(array)
   result = {}
   locations = array.values.collect {|e| e[:location]}
   locations = locations.uniq
-
   locations.each do |city|
     schools = array.select do |k, v|
       array[k][:location] == city
