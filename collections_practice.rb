@@ -61,10 +61,11 @@ def organize_schools(array)
   locations = locations.uniq
   puts locations
   locations.each do |city|
-
     schools = array.select do |k, v|
       array[k][:location] == city
     end
+    result[city] = schools.keys
     puts schools.keys.inspect
   end
+  result
 end
