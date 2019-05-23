@@ -35,3 +35,4 @@ end
 
 def merge_data(a, b)
   c = a.merge(b)
+end
