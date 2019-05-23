@@ -40,7 +40,7 @@ def merge_data(keys, data)
       d.find do |e|
         k = element.values.first
         e.keys
-        puts [e.keys].inspect
+        puts [e].inspect
         k == d
       end
     end
