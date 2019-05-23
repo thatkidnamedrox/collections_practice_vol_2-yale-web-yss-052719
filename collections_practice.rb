@@ -41,7 +41,7 @@ def merge_data(keys, data)
         k_name = k_element.values.first
         puts [h_element].inspect
         puts " "
-    
+
       end
     end
   end
