@@ -8,5 +8,14 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.find {|e| e.start_with?("w") }
+  array.find do |element|
+    e = nil
+    if !element.is_a?(String)
+      e = element.to_s
+    else
+      e = element
+    end
+
+    e.start_with?("wa")
+  end
 end
