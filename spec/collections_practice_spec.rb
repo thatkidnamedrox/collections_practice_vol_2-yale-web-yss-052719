@@ -149,15 +149,15 @@ describe 'collections practice vol 2.' do
   end
 
   describe '#merge_data' do
-  
+
     # Question 6
-  
+
     it 'combines two nested data structures into one' do
       expect(merge_data(keys, data)).to eq(merged_data)
     end
-  
+
   end
-  
+
   # describe '#find_cool' do
   #
   #   # Question 7
