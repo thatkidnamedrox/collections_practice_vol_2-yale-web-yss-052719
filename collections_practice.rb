@@ -15,7 +15,6 @@ def first_wa(array)
     else
       e = element
     end
-
     e.start_with?("wa")
   end
 end
