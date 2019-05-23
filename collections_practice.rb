@@ -42,6 +42,7 @@ def merge_data(keys, data)
         d = e.keys
         puts [e, k, d].inspect
         k == d
+      end
     end
   end
   result
