@@ -109,13 +109,13 @@ describe 'collections practice vol 2.' do
 
   describe '#contain_a' do
     # Question 2
-  
+
     it "return all elements that contain the letter 'a'" do
       expect(contain_a(["earth", "fire", "wind", "water", "heart"])).to eq(["earth", "water", "heart"])
     end
-  
+
   end
-  
+
   # describe '#first_wa' do
   #
   #   # Question 3
