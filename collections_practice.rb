@@ -35,11 +35,10 @@ end
 
 def merge_data(keys, data)
   result = []
-  keys.each do |element|
-    data.each do |d|
-      d.find do |e|
-        k = element.values.first
-
+  keys.each do |k_element|
+    data.each do |h|
+      h.find do |h_element|
+        k_name = k_element.values.first
         puts [e].inspect
         k == d
       end
