@@ -34,5 +34,5 @@ def count_elements(array)
 end
 
 def merge_data(a, b)
-  c = a.merge(b)
+  c = a << b
 end
