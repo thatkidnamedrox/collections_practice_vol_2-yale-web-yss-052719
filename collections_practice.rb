@@ -46,7 +46,7 @@ def merge_data(keys, data)
 
       new_element = {}
       new_element = k_element.merge(d.last)
-      puts [d.last.inspect, k_element.inspect]
+      puts [new_element]
     end
   end
   result
