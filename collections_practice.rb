@@ -6,3 +6,7 @@ end
 def contain_a(array)
   array.select {|e| e.include? "a"}
 end
+
+def first_wa(array)
+  array.find {|e| e.start_with?("wa")}
+end
