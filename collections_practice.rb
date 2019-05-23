@@ -65,6 +65,6 @@ def organize_schools(array)
     schools = array.select do |k, v|
       array[k][:location] == city
     end
-    puts schools
+    puts schools.keys
   end
 end
