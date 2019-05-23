@@ -50,3 +50,7 @@ def merge_data(keys, data)
   end
   result
 end
+
+def find_cool(array)
+  array.delete_if {|e| e[:temperature] != "cool"}
+end
