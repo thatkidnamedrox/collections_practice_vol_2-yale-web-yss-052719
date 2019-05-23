@@ -25,5 +25,10 @@ end
 
 def count_elements(array)
   uniq = array.uniq
-  uniq.collect {|e| e[:count] = array.count(e) }
+  uniq.collect do |element|
+    e = {}
+    e = e.merge(element)
+    e[:count] = array.count(e)
+    e
+  }
 end
