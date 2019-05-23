@@ -18,3 +18,7 @@ def first_wa(array)
     e.start_with?("wa")
   end
 end
+
+def remove_non_strings(array)
+  array.delete_if {|e| !e.is_a?(String)}
+end
