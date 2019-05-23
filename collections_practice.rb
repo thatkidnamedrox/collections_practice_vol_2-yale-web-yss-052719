@@ -39,6 +39,7 @@ def merge_data(keys, data)
     data.each do |h|
       h.find do |h_element|
         k_name = k_element.values.first
+        h_name = h_element.first
         puts h_element.inspect
         puts " "
 
