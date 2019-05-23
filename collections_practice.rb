@@ -56,12 +56,15 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  schools = array.keys
   result = {}
   locations = array.values.collect {|e| e[:location]}
   locations = locations.uniq
   puts locations
-  array.each do |key, value|
-    nil
+  locations.each do |city|
+
+    schools = array.select do |k, v|
+      array[k][:location] == city
+    end
+    puts schools
   end
 end
